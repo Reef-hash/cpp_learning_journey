@@ -9,6 +9,8 @@ Topics:
 - Data Types & Variables
 - Input / Output
 - Constants
+- Reading Memory Address using & operator
+- Mini Challenge
 
 Key Understanding:
 - How data is stored in memory
