@@ -18,11 +18,18 @@ int main() {
     std::cout << "\n=====User Information=====\n" << std::endl;
     std::cout << "User's name: " << name << std::endl;
     std::cout << "User's age: " << age << std::endl;
+    std::cout << "Player stamina: " << playerStamina << std::endl;
+    std::cout << "Player Team: " << playerTeam << std::endl;
+    std::cout << "isPlayerAlive: " << std::boolalpha << isPlayerAlive << std::endl;
 
     //Print the value and memory address of each variable
     std::cout << "\n====Memory Address====\n" << std::endl;
     std::cout << "Name: " << " " << &name << std::endl;     //this special case for string,its only show address of "string" object it self instead of showing address of string character
     std::cout << "Age: " << " " << &age << std::endl;
+    std::cout << "playerStamina: " << " " << &playerStamina << std::endl;
+    std::cout << "playerTeam: " << " " << &playerTeam << std::endl;
+    std::cout << "isPlayerAlive: " << " " << &isPlayerAlive << std::endl;
+
     
     //demonstrate constant variable and bool
     std::cout <<"\n====Constant and Boolean====\n" << std::endl;
