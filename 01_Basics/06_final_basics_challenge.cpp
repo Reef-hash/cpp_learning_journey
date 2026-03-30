@@ -14,7 +14,7 @@ int main() {
     //Ask the user to input their name and age
     std::cout << "Please insert your name: "; std::getline(std::cin, name); //using std::getline(std::cin, variable) to get whole line of string including space
     std::cout << "\nPlease insert your age: "; std::cin >> age;
-    std::cin.ignore(); //untuk membersihkan buffer setelah menggunakan std::cin untuk input angka, agar tidak mengganggu input string berikutnya
+    std::cin.ignore(); //to ignore the newline character left in the input buffer after reading age, so that it doesn't interfere with any subsequent input operations
     
 
     std::cout << "\n=====User Information=====\n" << std::endl;
