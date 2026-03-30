@@ -34,5 +34,12 @@ int main() {
     std:: cout << &a << " " << &b << " " << &c << std::endl;
     //we can see that the memory addresses of a, b, and c are different, even though they are of the same data type (int), because they are stored in different locations in memory. This is because each variable is allocated its own space in memory to store its value.
 
+    //data swapping using a temporary variable
+    std::cout << "\nBefore swapping: a = " << a << ", b = " << b << std::endl;
+    int temp = a; // store the value of a in a temporary variable
+    a = b; // assign the value of b to a
+    b = temp; // assign the value of temp (original a) to b
+    std::cout << "After swapping: a = " << a << ", b = " << b << std::endl;
+    
     return 0;
 }
