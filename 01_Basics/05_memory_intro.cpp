@@ -36,10 +36,10 @@ int main() {
 
     //data swapping using a temporary variable
     std::cout << "\nBefore swapping: a = " << a << ", b = " << b << std::endl;
-    int temp = a; // store the value of a in a temporary variable
-    a = b; // assign the value of b to a
-    b = temp; // assign the value of temp (original a) to b
+    int temp = a;   // store the value of a in a temporary variable
+    a = b;          // assign the value of b to a
+    b = temp;       // assign the value of temp (original a) to b
     std::cout << "After swapping: a = " << a << ", b = " << b << std::endl;
-    
+
     return 0;
 }
